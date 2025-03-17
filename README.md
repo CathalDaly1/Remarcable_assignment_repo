@@ -72,9 +72,11 @@ python manage.py migrate
 cd products/managemement/commands/
 python manage.py insert_data_script.py
 
+6. Create a superuser(for admin access) 
+    `python manage.py createsuperuser`
 
-6. Start the Development Server
+7. Start the Development Server
 python manage.py runserver
 
-7. Access the Application
+8. Access the Application
 http://127.0.0.1:8000/
